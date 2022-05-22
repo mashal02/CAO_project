@@ -59,28 +59,7 @@ void loop() {
       changeState = false;
       Serial.println(state);
       Serial.println(doorState);
-/*
-      //Send email
-      Serial.print("connecting to ");
-      Serial.println(host);
-      WiFiClient client;
-      const int httpPort = 80;
-      if (!client.connect(host, httpPort)) {
-        Serial.println("connection failed");
-        return;
-      }
 
-      String url = "/trigger/door_status/with/key/";
-      url += apiKey;
-
-      Serial.print("Requesting URL: ");
-      Serial.println(url);
-      client.print(String("POST ") + url + " HTTP/1.1\r\n" +
-                     "Host: " + host + "\r\n" + 
-                     "Content-Type: application/x-www-form-urlencoded\r\n" + 
-                     "Content-Length: 13\r\n\r\n" +
-                     "value1=" + doorState + "\r\n");
-                     */
     }  
   }
 }
