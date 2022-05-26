@@ -27,3 +27,5 @@ is not the actual email password, it is the one that is generated upon 2-step ve
 Then finally, also replace the receiver'e email address to your own.
 Moreover, change gpio pin for reed switch according to how you connected the switch.
 ```
+### Future Scope for Improvement:
+Adding LED's that blink upon triggers, and adding a buzzer alarm that sounds when someone opens the switch.
