@@ -29,3 +29,4 @@ Moreover, change gpio pin for reed switch according to how you connected the swi
 ```
 ### Future Scope for Improvement:
 Adding LED's that blink upon triggers, and adding a buzzer alarm that sounds when someone opens the switch.
+I would like to add the functionality that the pictyre of the intruder is captured as well and is sent along with the email as an attachment. For that, an esp32CAM would be required.
