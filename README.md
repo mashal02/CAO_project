@@ -17,7 +17,10 @@
 
 ####  door open alert
 + This is the main code file that contains all the modules combined. FIrstly I just included the code that would check if my reed switch is functioning properly or not. I used onboard LED to check that i.e. it turns on or off when the switch opens or closes.
-Then in the same file, I integrated code for WiFi connection and sending email. 
+Then in the same file, I integrated code for WiFi connection and sending email.  For email I have created an SMTP session and included ESp Mail client library. It requires you to define the email sender, app password, receiver's email, and subject. As for the content of the email, I sent html designed message to the receiver.
+
+#### Reed Switch
+The switch that I used is a magnetic reed switch. This switch comes in two types, normally opened and normally closed ones. The one I used is a normally closed one i.e. when the magnetics are close togother (or the door is closed) then the circuit is closed and opening the door opens the circuit and as a result signal is sent to the esp32.
 
 ```diff
 - Note:
